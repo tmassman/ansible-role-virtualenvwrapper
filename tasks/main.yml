@@ -41,7 +41,7 @@
     state=present
     backup=yes
     create=yes
-  when: virtualenvwrapper_override_python
+  when: virtualenvwrapper_override_python_path
   tags:
     - virtualenvwrapper
     - virtualenvwrapper_configuration
