@@ -5,6 +5,7 @@
     name=virtualenvwrapper
     version={{ virtualenvwrapper_version }}
     state=present
+    executable={{ virtualenvwrapper_pip_executable }}
   tags:
     - virtualenvwrapper
     - virtualenvwrapper_installation

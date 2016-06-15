@@ -6,3 +6,4 @@ virtualenvwrapper_venvs_home: "{{ ansible_env['HOME'] }}/.virtualenvs"
 virtualenvwrapper_venvs_project: "{{ ansible_env['HOME'] }}/Devel"
 virtualenvwrapper_override_python: no
 virtualenvwrapper_venvs_python: /usr/bin/python
+virtualenvwrapper_pip_executable: pip
